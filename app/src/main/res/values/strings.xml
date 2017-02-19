@@ -1,0 +1,97 @@
+<resources>
+    <string name="copy_right_nombre">Desarrollador de App: Brandon D. Chavez N.</string>
+    <string name="copy_right_email">Email: DeveloperAndroid.App94@gmail.com</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="app_name">SNG</string>
+    <string name="vacio"></string>
+    <string name="action_informacion">Información</string>
+    <string name="action_cerrar_sesion">Cerrar Sesión</string>
+    <string name="action_perfil">Perfil</string>
+    <string name="action_actualizar">Actualizar</string>
+    <string name="nav_menu_pacientes">Pacientes</string>
+    <string name="nav_listado_pacientes">Listado de Pacientes</string>
+    <string name="nav_registrar_paciente">Registrar Nuevo Paciente</string>
+    <string name="nav_prediccion_paciente">Predecir Estado del Paciente</string>
+    <string name="nav_menu_clasificaciones">Clasificaciones</string>
+    <string name="nav_clasificacion_graficas">Graficas de Estado</string>
+    <string name="nav_menu_extras">Extras</string>
+    <string name="nav_mensaje">Enviar Mensaje</string>
+
+    <!-- UsuarioLogin -->
+    <string name="title_activity_usuario_login">Iniciar Sesión</string>
+    <string name="ul_email_usuario_login">Email</string>
+    <string name="ul_password_usuario_login">Password</string>
+    <string name="ul_b_registrar_usuario_login">Registrar Usuario</string>
+    <string-array name="ul_sp_tipo_usuario_login">
+        <item>MEDICO GENERAL</item>
+        <item>NUTRICIONISTA</item>
+    </string-array>
+    <!-- /UsuarioLogin -->
+
+    <!-- PacienteRegistrar -->
+    <string name="pr_tv_paciente_cedula">Cedula:</string>
+    <string name="pr_tv_paciente_nombre">Nombre:</string>
+    <string name="pr_tv_paciente_apellido">Apellido:</string>
+    <string name="pr_tv_paciente_edad">Edad:</string>
+    <string name="pr_tv_paciente_email">Email:</string>
+    <string name="pr_et_paciente_cedula">Cedula del Paciente</string>
+    <string name="pr_et_paciente_nombre">Nombre del Paciente</string>
+    <string name="pr_et_paciente_apellido">Apellido del Paciente</string>
+    <string name="pr_et_paciente_edad">Edad del Paciente</string>
+    <string name="pr_et_paciente_email">Email del Paciente</string>
+    <!-- /PacienteRegistrar -->
+
+    <!-- UsuarioRegistrar -->
+    <string name="title_activity_usuario_registrar">Registrar Usuario</string>
+    <string name="ur_tv_tipo_usuario_registrar">Tipo:</string>
+    <string name="ur_tv_cedula_usuario_registrar">Cedula:</string>
+    <string name="ur_tv_nombre_usuario_registrar">Nombre:</string>
+    <string name="ur_tv_apellido_usuario_registrar">Apellido:</string>
+    <string name="ur_tv_genero_usuario_registrar">Genero:</string>
+    <string name="ur_tv_email_usuario_registrar">Email:</string>
+    <string name="ur_tv_password_usuario_registrar">Password:</string>
+    <string name="ur_tv_confirmar_password_usuario_registrar">Confirmar Password:</string>
+    <string name="ur_rb_femenino_usuario_registrar">Femenino</string>
+    <string name="ur_rb_masculino_usuario_registrar">Masculino</string>
+    <string name="ur_et_cedula_usuario_registrar">Cedula del Usuario</string>
+    <string name="ur_et_nombre_usuario_registrar">Nombre del Usuario</string>
+    <string name="ur_et_apellido_usuario_registrar">Apellido del Usuario</string>
+    <string name="ur_et_email_usuario_registrar">Email del Usuario</string>
+    <string name="ur_et_password_usuario_registrar">Password</string>
+    <string name="ur_et_confirmar_password_usuario_registrar">Confirmar Password</string>
+    <string-array name="ur_sp_tipo_usuario_registrar">
+        <item>MEDICO GENERAL</item>
+        <item>NUTRICIONISTA</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_paciente_historial">PacienteHistorial</string>
+    <string name="title_activity_paciente_historiales_registrar">PacienteHistorialesRegistrar</string>
+    <!-- /UsuarioRegistrar -->
+
+    <string-array name="phr_sp_mes_historial">
+        <item>MES 1</item>
+        <item>MES 2</item>
+        <item>MES 3</item>
+        <item>MES 4</item>
+        <item>MES 5</item>
+        <item>MES 6</item>
+        <item>MES 7</item>
+        <item>MES 8</item>
+        <item>MES 9</item>
+    </string-array>
+
+    <!-- PacientePredecirEstado -->
+    <string name="ppe_tv_altura_paciente_predecir_estado">Altura (metros)</string>
+    <string name="ppe_tv_peso_preconcepcional_paciente_predecir_estado">Peso antes del embarazo (kilogramos)</string>
+    <string name="ppe_tv_peso_actual_paciente_predecir_estado">Peso actual (kilogramos)</string>
+    <string name="ppe_tv_mes_actual_paciente_predecir_estado">Mes actual de embarazo</string>
+    <string name="title_activity_user_medico">Medico General</string>
+    <!-- /PacientePredecirEstado -->
+
+</resources>

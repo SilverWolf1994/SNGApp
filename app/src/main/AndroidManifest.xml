@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.brandon.chavez.android.app.sngapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_aplicacion"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UsuarioPerfil"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UsuarioLogin"
+            android:label="@string/title_activity_usuario_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UsuarioRegistrar"
+            android:label="@string/title_activity_usuario_registrar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dialogs.PacienteHistorial"
+            android:label="@string/title_activity_paciente_historial"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dialogs.PacienteHistorialesRegistrar"
+            android:label="@string/title_activity_paciente_historiales_registrar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UsuarioMedico"
+            android:label="@string/title_activity_user_medico"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

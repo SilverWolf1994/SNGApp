@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.brandon.chavez.android.app.sngapp.fragments.PacientePredecirEstado">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etCodigoPacientePredecirEstado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:gravity="center"
+                    android:text="1164852434"
+                    android:hint="Cedula del paciente" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/bPredecirEstadoPacientePredecirEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PREDECIR"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lcGraficaIdealPacientePredecirEstado"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

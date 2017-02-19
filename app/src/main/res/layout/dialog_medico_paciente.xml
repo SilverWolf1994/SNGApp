@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/textColorPrimary"
+        android:textStyle="bold"
+        android:text="Asignar Paciente a Nitricionista" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textColor="@color/textColorSecundary"
+        android:textStyle="italic"
+        android:text="A continuación digite el codigo del Nutricionista y luego ACEPTAR para asignar este paiente a un Nutricionista" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etDialogCodigoNutricionista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Codigo del Nutricionista"
+            android:drawableLeft="@drawable/ic_account_box_grey600_48dp"/>
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

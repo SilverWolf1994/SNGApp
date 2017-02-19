@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.brandon.chavez.android.app.sngapp.fragments.PacienteGraficasGeneral">
+
+    <Button
+        android:id="@+id/bCargarGraficaGeneral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBackground"
+        android:background="@color/colorPrimary"
+        android:text="Cargar Datos" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/bcPacienteGraficasGeneral"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

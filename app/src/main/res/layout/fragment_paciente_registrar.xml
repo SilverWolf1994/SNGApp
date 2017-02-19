@@ -1,0 +1,163 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.brandon.chavez.android.app.sngapp.fragments.PacienteRegistrar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp">
+
+            <ImageView
+                android:id="@+id/ivImagenPacienteRegistrar"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/vacio"
+                android:src="@drawable/ic_account_grey600_48dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabImagenPacienteRegistrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fabSize="mini"
+                android:layout_marginEnd="50dp"
+                android:layout_gravity="bottom|end"
+                android:src="@drawable/ic_add_a_photo_white_24dp"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="10dp"
+                android:background="#AAAAAA"
+                android:layout_gravity="bottom"/>
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/activity_vertical_margin"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:paddingTop="@dimen/activity_vertical_margin">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/textColorSecundary"
+                            android:text="@string/pr_tv_paciente_cedula" />
+
+                        <EditText
+                            android:id="@+id/etCodigoPacienteRegistrar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:hint="@string/pr_et_paciente_cedula" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/textColorSecundary"
+                            android:text="@string/pr_tv_paciente_nombre" />
+
+                        <EditText
+                            android:id="@+id/etNombrePacienteRegistrar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textCapWords"
+                            android:hint="@string/pr_et_paciente_nombre" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/textColorSecundary"
+                            android:text="@string/pr_tv_paciente_apellido" />
+
+                        <EditText
+                            android:id="@+id/etApellidoPacienteRegistrar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textCapWords"
+                            android:hint="@string/pr_et_paciente_apellido" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/textColorSecundary"
+                            android:text="@string/pr_tv_paciente_edad" />
+
+                        <EditText
+                            android:id="@+id/etEdadPacienteRegistrar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:hint="@string/pr_et_paciente_edad" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/textColorSecundary"
+                            android:text="@string/pr_tv_paciente_email" />
+
+                        <EditText
+                            android:id="@+id/etEmailPacienteRegistrar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textEmailAddress"
+                            android:hint="@string/pr_et_paciente_email" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabGuardarPacienteRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        app:fabSize="normal"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_save_white_24dp" />
+
+</FrameLayout>
